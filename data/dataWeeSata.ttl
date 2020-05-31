@@ -1,0 +1,204 @@
+@prefix ws: <http://weesata.com/ns/weesatalist#> .
+@prefix id: <http://weesata.com/ns/data#> .
+
+
+
+id:i021	   ws:nama  		"Kawah Putih" ;
+		   ws:lokasi 		"Desa Alam Endah, Kecamatan Rancabali, Kabupaten Bandung Jawa Barat " ;
+		   ws:kota 			"Kabupaten Bandung" ;
+		   ws:gambar		"https://anekatempatwisata.com/wp-content/uploads/2015/07/Kawah-Putih-Ciwidey-300x200.jpg" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	"Kawah putih Ciwidey merupakan sebuah danau yang terbentuk akibat adanya letusan dari gunung berapi yang masih aktif pada masa itu yaitu Gunung Patuha. Di sekitar kawah ini memiliki warna putih yang timbul akibat adanya percampuran dari unsur belerang." ;
+		   ws:harga  		"Rp 50.000" ;
+		   ws:jam 			"07.00 - 17.00 WIB" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i022	   ws:nama 			"Gunung Tangkuban Perahu" ;
+		   ws:lokasi 		"Cikahuripan, Lembang, Kabupaten Bandung Barat, Jawa Barat" ;
+		   ws:kota			"Kabupaten Bandung Barat" ;
+		   ws:gambar		"https://ksmtour.com/media/images/articles14/tangkuban-perahu-jawa-barat_medium.jpg" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	"Tangkuban Parahu merupakan salah satu gunung terbesar di dataran Parahyangan yang tentunya tidak akan terlepas dengan cerita yang sudah melegenda di masyarakat, yaitu legenda Sangkuriang." ;
+		   ws:harga 		"Rp 15.000" ;
+		   ws:jam 			"08.00 - 17.00 WIB" ;
+		   ws:hari 			"Setiap hari" .
+		  
+id:i023	   ws:nama  		"Orchid Forest Cikole" ;
+		   ws:lokasi 		"Genteng, Cikole, Lembang, Kabupaten Bandung Barat, Jawa Barat" ;
+		   ws:kota			"Kabupaten Bandung Barat" ;
+		   ws:gambar		"https://dirgantaracarrental.com/wp-content/uploads/2019/07/Orchid-Forest-Cikole-Indahnya-Bunga-Anggrek-Di-Lembang-768x427.jpg" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	". Tidak kurang ada 157 jenis bunga anggrek beraneka macam dikembangkan disini. Orchid Forest Cikole Bandung memfokuskan diri untuk memperkenalkan dan membudidayakan berbagai tanaman anggrek. Menggunakan metode lokal maupun internasional. Tidak hanya berasal dari Indonesia yang merupakan negara kedua terbanyak varian anggrek. Tanaman anggrek di Orchid Forest juga berasal dari negara lain, seperti Venezuela, Argentina, Filipina, Peru, dan Amerika serikat." ;
+		   ws:harga  		"Rp 25.000" ;
+		   ws:jam 			"09.00 - 18.00 WIB" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i024	   ws:nama 			"Forest Walk Babakan Siliwangi" ;
+		   ws:lokasi 		"Jl. Tamansari No.73, Lb. Siliwangi, Kecamatan Coblong, Kota Bandung, Jawa Barat " ;
+		   ws:kota			"Kota Bandung" ;
+		   ws:gambar		"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTWZE1AHHAm5yEWSgjq6cZ6G1H6OfIgNtvWxPmt6Ohz3lvv327o&usqp=CAU" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	"abakan Siliwangi memiliki luas sebesar 3,8 hektar diisi dengan berbagai satwa yang melengkapi ekosistem yang ada. Dalam perjalanannya, pengelolaan Babakan Siliwangi mengalami banyak kontroversi, terutama adanya rencana pengalihan pengelolaan Babakan Siliwangi kepada pihak swasta yang merencanakan pembangunan yang dapat dikomersilkan" ;
+		   ws:harga 		"Rp 0 " ;
+		   ws:jam 			"24 jam" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i025	   ws:nama  		"Green Canyon Rafting" ;
+		   ws:lokasi 		"Jl. Raya Cijulang - Green Canyon, RT.02/RW.10, Cijulang, Pangandaran, Jawa Barat " ;
+		   ws:kota			"Kota Pandandaran" ;
+		   ws:gambar		"https://2.bp.blogspot.com/-d-FjGrWh3_8/Vdz-npBsGmI/AAAAAAAAAXI/bcLxBpInZ08/s780/greencanyon.jpg" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	"Green Canyon di Pangandaran adalah destinasi yang bisa dikategorikan sebagai lanskap tropis yang unik, diantara kedua dinding ngarai yang berwarna hijau karena ditumbuhi lumut ini anda bisa langsung melihat fenomena alam yang menarik, adanya stalagtit dan stalagmit yang dapat disaksikan secara langsung diruang terbuka, bukannya di kedalaman lorong-lorong gua bawah tanah." ;
+		   ws:harga  		"Rp 200.000 - Rp 350.000" ;
+		   ws:jam 			"07.00 - 16.00 WIB" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i026	   ws:nama 			"Trans Studio Bandung" ;
+		   ws:lokasi 		"Jalan Jendral Gatot Subroto No.289 A, Cibangkong, Batununggal, Kota Bandung, Jawa Barat " ;
+		   ws:kota			"Kota Bandung" ;
+		   ws:gambar		"https://i.ytimg.com/vi/0-qPSQgVokU/maxresdefault.jpg" ;
+		   ws:jenis 		"Wisata Indoor" ;
+		   ws:deskripsi 	"Trans Studio Bandung merupakan Indoor Theme Park terbesar kedua yang telah ada di Indonesia setelah Makassar. Bukan hanya terbesar di Indonesia tempat bermain ini juga menjadi terbesar di dunia. Berbagai macam wahana permainan menarik telah tersedia dan menjadikan Trans Studio Bandung sebagai taman bermain paling komplit di kota Bandung,Jawa Barat." ;
+		   ws:harga 		"Rp 280.000" ;
+		   ws:jam 			"10.00 - 18.00 WIB" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i027	   ws:nama  		"Gedung Sate" ;
+		   ws:lokasi 		" Jl. Diponegoro No.22, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat " ;
+		   ws:kota			"Kota Bandung" ;
+		   ws:gambar		"https://anekatempatwisata.com/wp-content/uploads/2014/08/Gedung-Sate.jpg" ;
+		   ws:jenis			"Wisata Sejarah" ;
+		   ws:deskripsi 	"Disebut sebagai Gedung Sate karena gedung ini mempunyai ciri khas yang unik, yaitu ornamen 6 tusuk sate yang ada di atas menara sentral. 6 tusuk sate ini melambangkan 6 juta Gulden yang dipakai untuk membangun gedung berwarna putih ini pada masanya. Gedung ini sangat terkenal tidak hanya di kota Bandung saja, melainkan juga sudah terkenal di Jawa Barat dan Indonesia." ;
+		   ws:harga  		"Rp 5.000" ;
+		   ws:jam 			"09.30 - 16.00 WIB" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i028	   ws:nama 			"Floating Market Lembang" ;
+		   ws:lokasi 		"Jl. Grand Hotel No.33E, Lembang, Kabupaten Bandung Barat, Jawa Barat" ;
+		   ws:kota			"Kabupaten Bandung Barat" ;
+		   ws:gambar		"https://www.hargatiket.net/wp-content/uploads/2018/06/Floating-Market-Lembang.jpg" ;
+		   ws:jenis			"Wisata Alam" ; 
+		   ws:deskripsi 	"Konsep Tempat Wisata Di Lembang ini adalah ‘Desa dan Kampung Wisata’ yang mana menawarkan jenis wisata dengan latar alam khas pedesaan yang asri dan sejuk di sekitar Lembang yang memang dikenal sejuk udaranya dan indah pemandangan alamnya.Diresmikan operasionalnya mulai tanggal 12 Desember 2012,Floating Market kini menjadi wisata unggulan daerah Lembang." ;
+		   ws:harga 		"Rp 20.000 - Rp 30.000" ;
+		   ws:jam 			"08.00 - 20.00 WIB" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i029	   ws:nama  		"Dago Dream Park" ;
+		   ws:lokasi 		" Jl. Dago Giri Km. 2.2 Mekarwangi, Pagerwangi, Lembang, Kabupaten Bandung Barat, Jawa Barat" ;
+		   ws:kota			"Kabupaten Bandung Barat" ;
+		   ws:gambar		"https://www.daerahkita.com/gambar/wisata-alam-dago-dream-park-bandung-1.jpg" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	"Dago Dream Park mulai beroperasi sekitar Juli 2016, dan langsung menyedot animo pengunjung. Tipikal destinasi wisata di Bandung sepertinya memang begitu sih. Asalkan bagus, terdapat fasilitas lengkap, dan banyak spot selfie, biasanya langsung di serbu  pengunjung. Area Dago Dream Park cukup luas, dengan kontur berbukit. Suasana alami di tempat ini terjaga sehingga terasa lebih fresh. Banyaknya pilihan wahana, spot berfoto, dan juga fasilitas yang ada tentunya bakal bisa memanjakan liburan anda sekeluarga." ;
+		   ws:harga  		"Rp 25.000 - Rp 30.000" ;
+		   ws:jam 			"09.00 - 17.00 WIB" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i030	   ws:nama 			"Musium Geologi Bandung" ;
+		   ws:lokasi 		"Jl. Diponegoro No.57, Cihaur Geulis, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat " ;
+		   ws:kota			"KOta Bandung" ;
+		   ws:gambar		"https://lh3.googleusercontent.com/proxy/b7we38_qwMmUJCZqMAe-IDPJN9tFNsgqEfzNfU7ltN3c_iEnvfziSAhO741KR9zBlJD7R4rWHSR3Lr89Im9vrwy9BVCv9JrGIfj-Dca20fN40eUbozCqQbebJZmyn21l5ZVHEjDtJBcRjwLyN30mIKWo_9hfnGzBzdc2VH2AAZ2LEJyDyzF0" ;
+		   ws:jenis			"Wisata Sejarah" ;
+		   ws:deskripsi 	"Museum Geologi didirikan pada tanggal 16 Mei 1929 Museum ini telah direnovasi dengan dana bantuan dari JICA. Setelah mengalami renovasi, Museum Geologi dibuka kembali dan diresmikan oleh Wakil Presiden RI, Megawati Soekarnoputri pada tanggal 23 Agustus 2000" ;
+		   ws:harga 		"Rp 3.000" ;
+		   ws:jam 			"08.00 - 16.00 WIB" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i031	   ws:nama  		"Tebing Keraton" ;
+		   ws:lokasi 		"Ciburial, Kec. Cimenyan, Kabupaten Bandung Barat, Jawa Barat  " ;
+		   ws:kota 			"Kabupaten Bandung Barat" ;
+		   ws:gambar		"https://www.thenamhai.com/wp-content/uploads/2019/09/tebing-keraton.jpg" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	"Tebing yang berada di dalam kawasan Taman Hutan Raya Ir. H. Djuanda. Tebing ini terletak di Kampung Ciharegem Puncak, Desa Ciburial, Bandung, Jawa Barat, Indonesia. Dari Tebing Keraton dapat menikmati pemandangan spektakuler. Bukan lampu kota, melainkan hutan" ;
+		   ws:harga  		"Rp 11.000" ;
+		   ws:jam 			"09.00 - 17.00 WIB" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i032	   ws:nama 			"Dago Bakery Punclut Cafe" ;
+		   ws:lokasi 		"Jl. Pagermaneuh No.57, Pagerwangi, Lembang, Kabupaten Bandung Barat, Jawa Barat" ;
+		   ws:kota			"Kabupaten Bandung Barat" ;
+		   ws:gambar		"https://camerawisata.com/wp-content/uploads/2019/08/DagoBakery-Punclut-1.jpg" ;
+		   ws:jenis 		"Wisata Kuliner" ;
+		   ws:deskripsi 	"Dago Bakery Punclut adalah sebuah restoran yang memiliki konsep ala Eropa klasik. Hal ini dikuatkan dengan desain bangunan dan penataan ruang yang sangat menyerupai desain Eropa Klasik. Dengan lokasinya yang berada di dataran tinggi sehingga dapat menikmati makanan dengan pemandangan alam yang sangat bagus. " ;
+		   ws:harga 		"Rp Gratis" ;
+		   ws:jam 			"09.00 - 22.00 WIB" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i033	   ws:nama 			"Taman Hutan Raya Ir. Juanda" ;
+		   ws:lokasi 		"Jl. Pakar Kulon No.13, Ciburial, ,Cimenyan,Bandung,Jawa Barat,Indonesia" ;
+		   ws:kota			"Kota Bandung" ;
+		   ws:gambar		"https://travelspromo.com/wp-content/uploads/2018/07/tahura-tebing-keraton.jpg" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	"ering dikenal juga dengan sebutan THR Djuanda atau Tahura Djuanda. Luas hutan yang mencapai 590 hektar membentang dari kawasan Pakar hingga Maribaya. Berada di ketinggian antara 770 mdpl hingga 1330 mdpl. Tidak kurang dari 2500 jenis tanaman tumbuh di berkembang di Taman Hutan Raya Djuanda. Tahura Djuanda merupakan kawasan konservasi yang memadukan alam sekunder dengan hutan tanaman. Suasana hutan yang sangat alami ditambah beberapa objek wisata menarik menjadi daya pikat tersendiri." ;
+		   ws:harga 		"Rp 15.000" ;
+		   ws:jam 			"07.30 - 16.30 WIB" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i034	   ws:nama  		"Farm House Lembang" ;
+		   ws:lokasi 		"Jl. Raya Lembang No.108, Gudangkahuripan, Lembang, Kabupaten Bandung Barat, Jawa Barat" ;
+		   ws:kota			"Kabupaten Bandung Barat" ;
+		   ws:gambar		"https://armitafibri.com/wp-content/uploads/2017/10/Farm-House-Lembang.jpg" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	"Taman hiburan dengan bangunan bergaya Eropa, kostum Belanda untuk disewa, kebun binatang mini & resto trendi." ;
+		   ws:harga  		"Rp 25.000" ;
+		   ws:jam 			"08.00 - 20.00 WIB" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i035	   ws:nama  		"Gunung Papandayan" ;
+		   ws:lokasi 		"Karamat Wangi, Cisurupan, Kabupaten Garut, Jawa Barat" ;
+		   ws:kota			"Kabupaten Garut" ;
+		   ws:gambar		"https://digarut.com/assets/Gunung-papandayan.jpg" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	"Gunung Papandayan adalah gunung api strato yang terletak di Kabupaten Garut, Jawa Barat tepatnya di Kecamatan Cisurupan. Gunung dengan ketinggian 2665 meter di atas permukaan laut itu terletak sekitar 70 km sebelah tenggara Kota Bandung. Pada Gunung Papandayan, terdapat beberapa kawah yang terkenal" ;
+		   ws:harga  		"Rp 0 " ;
+		   ws:jam 			"24 jam" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i036	   ws:nama 			"Gunung Pancar" ;
+		   ws:lokasi 		"Desa Karang Tengah, Babakan Madang, Bogor, Jawa Barat" ;
+		   ws:kota			"Kota Bogor" ;
+		   ws:gambar		"https://i1.wp.com/penginapan.net/wp-content/uploads/wisata-alam-gunung-pancar.jpg?resize=610%2C381&ssl=1" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	"Gunung Pancar adalah sebuah gunung yang terletak di Kecamatan Citeureup, Kabupaten Bogor, Jawa Barat, Indonesia. Gunung Pancar terletak pada ketinggian 300–800 m dpl dengan topografi landai sampai bergelombang terjal dengan kemiringan sekitar 15-40%" ;
+		   ws:harga 		"Rp 5.000" ;
+		   ws:jam 			"24 jam" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i037	   ws:nama  		"Curug Cikaso" ;
+		   ws:lokasi 		"Desa Ciniti, Cibitung, Kabupaten Sukabumi, Jawa Barat " ;
+		   ws:kota			"Kabupaten Sukabumi" ;
+		   ws:gambar		"https://camerawisata.com/wp-content/uploads/2018/09/Pemandangan-Curug-Cikaso-Sukabumi.png" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	"Air Terjun Cikaso, adalah merupakan salahsatu air terjun yang terletak di selatan Kabupaten Sukabumi. Air terjun ini juga dikenal sebagai Curug Luhur, tetapi nama Curug Cikaso lebih dikenal masyarakat sekitar dikarenakan aliran airnya berasal dari anak Sungai Cikaso yaitu Sungai Cicurug" ;
+		   ws:harga  		"Rp 27.000" ;
+		   ws:jam 			"24 Jam" ;
+		   ws:hari 			"Setiap hari" .
+
+id:i038	   ws:nama 			"Pantai Pelabuhan Ratu" ;
+		   ws:lokasi 		"Pantai Palabuhanratu, Kecamatan, Pelabuhanratu, Kota Palabuhanratu, Jawa Barat" ;
+		   ws:kota			"Kota Palabuhanratu" ;
+		   ws:gambar		"https://www.nativeindonesia.com/wp-content/uploads/2019/06/cover-6.jpg" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	" Pantai Pelabuhan Ratu merupakan pantai yang memiliki keindahan panorama khas. Perpaduan pantai, pasir, karang dll" ;
+		   ws:harga 		"Rp 3.000" ;
+		   ws:jam 			"24 jam" ;
+		   ws:hari 			"Setiap hari" .		   
+
+id:i039	   ws:nama 			"Taman Wisata Mekarsari" ;
+		   ws:lokasi 		" Jalan Raya Cileungsi -Jonggol KM.3, Mekarsari, Cileungsi, Mekarsari, Kec. Cileungsi, Bogor, Jawa Barat " ;
+		   ws:kota			"Kota Bogor" ;
+		   ws:gambar		"https://dolanyok.com/wp-content/uploads/Taman-Wisata-Mekarsari.jpg" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	"Taman Rekreasi dan Buah Mekarsari atau Taman Wisata Mekarsari adalah pusat konservasi keanekaragaman hayati dari buah-buahan tropis, dari semua wilayah di Indonesia dan bagian lain di dunia. " ;
+		   ws:harga 		"Rp 50.000" ;
+		   ws:jam 			"08.00 - 17.00 WIB" ;
+		   ws:hari 			"Setiap hari" .	
+
+id:i040	   ws:nama 			"Taman Bunga Nusantara" ;
+		   ws:lokasi 		"Jl. Mariwati No.KM, Kawungluwuk, Kec. Sukaresmi, Kabupaten Cianjur, Jawa Barat 43254" ;
+		   ws:kota			"Kabupaten Cianjur" ;
+		   ws:gambar		"https://lh3.googleusercontent.com/proxy/HOgMXxDwoc4wjNXYBhPqbm4zL4tGAMi_4tRxYJ8puseVdWgHO32FP8P3xaGRNV1MI_z7k9hhZk9xM2CMeW_xwbFSZoeMz6lYBCiKLCAtHyhTMxM_17KLtGeBaC9z0t0nBaIeVS7s8J73qaCx3wSqs-oEIL2JpzbUEWZfE4nHgg54EX2Q5QanvXt3JcsZ8_crHmEoBCQR" ;
+		   ws:jenis			"Wisata Alam" ;
+		   ws:deskripsi 	"Taman Bunga Nusantara adalah sebuah taman bunga seluas 35 hektare yang terletak dekat Gunung Gede Pangrango dan Kebun Teh Bogor dengan jarak tempuh sekitar 2,5 - 3 jam perjalanan dari Jakarta" ;
+		   ws:harga 		"Rp 40.000" ;
+		   ws:jam 			"08.00 - 17.00 WIB" ;
+		   ws:hari 			"Setiap hari" .	
