@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.3), rgba(0,0,0,0.1), rgba(0,0,0,0)), url(../image/pangandaran-3.jpg);
+	background-size: cover;
+	background-position: center; 
+	background-attachment: fixed;
+}
+
+.no-image {
+	background-image:none;
+}
+/*
+section {
+	height: 100vh;
+}
+*/
+.header .container-fluid {
+	padding-top: 20px;
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.header-container {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+header {
+	background: #00adb5;
+	height: 60px;
+	vertical-align: middle;
+	line-height: 60px;
+	margin-bottom: 2rem;
+}
+
+.header h1, .header p {
+	color: white;
+	text-align: center;
+}
+
+.header h1 {
+	padding-top: 9rem;	
+}
+
+.logo {
+	font-family: 'Playfair Display', serif;
+	font-size: 2rem;
+	color: #00adb5;
+	text-decoration: none;
+}
+
+.logo:hover {
+	text-decoration: none;
+	color: #008a90;
+}
+
+.nav {
+	float: right;
+}
+
+.link {
+	color: #fff;
+	margin: 0 10px;
+	padding: 0 15px;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.nav-link {
+	color: #fff;
+	padding: .5em 1.5rem !important;
+	margin: 0 10px; 
+}
+
+.nav-link:hover {
+	color: #fff;
+	background: #000;
+	border-radius: 30px;
+}
+
+.link-btn {
+	margin: 0;
+	color: #ffffff;
+	background: #000;
+	border-radius: 30px;
+	/*border: 1px solid #fff;*/ 
+	border: none;
+	padding: 8px 20px;
+	outline: none !important;
+	font-size: 15px;
+}
+
+.link-btn:hover {
+	color: #000;
+	background: #fff;
+}
+
+.form-container {
+	background: rgba(0,0,0,0.5);
+	width: 90%;
+	max-width: 600px ;
+	margin: auto;
+	padding: 20px 0 30px 0;
+	border-radius: 15px;
+}
+
+.header .input-group {
+	width: 90%;
+	/*max-width: 500px ;*/
+	margin: auto;
+	border: none;
+	border-radius: 30px;
+	padding: 2px;
+}
+
+.header .form-control, .header .input-group-text {
+	
+	border: none;
+	border-radius: 30px;
+}
+
+.border-radius {
+	border: none;
+	border-radius: 30px !important;
+}
+
+.header .input-group-text {
+	background: #000000;
+	border-radius: 30px;
+	color: #ffffff;
+	padding: 0 25px;
+	text-align: center;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.no-padding span {
+	padding-left: 10px;
+}
+
+.padding-left-15 {
+	padding-left: 5px !important;
+}
+
+.padding-right-15 {
+	padding-right: 5px !important;
+}
+
+.padding-top-15 {
+	padding-top: 15px !important;
+}
+
+
+.input-group {
+	color: #fff;
+}
+
+.btn-custom {
+	color: #fff !important;
+	background: #00adb5 !important;
+	width: 100% !important;
+	margin-top: 10px !important;
+	border-radius: 30px !important;
+	padding: .6rem !important;
+}
+
+.btn-primary {
+	background: #00adb5 !important;
+	color: #fff;
+}
+
+.btn-custom:hover {
+	background: #008a90 !important;
+	color: #fff !important;
+}
+
+.btn-primary:hover {
+	background: #008a90 !important;
+	color: #fff !important;
+}
+
+
+.fa-chevron-down {
+	color: #fff !important;
+	font-size: 2em !important;
+	position: absolute;
+	bottom: 10px;
+	text-align: center !important;
+}
+
+.align-center {
+	align-items: center !important;
+}
+
+footer {
+	height: auto;
+	text-align: center;
+	padding: 1rem;
+	background: #00adb5;
+	margin-top: 3rem;
+	color: #fff;
+}
+
+.width-100 {
+	width: 100%;
+}
+
+/*================== BLOG LAYOUT =====================*/
+.leftcolumn {
+  margin: auto;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+table td {
+	padding: 3px;
+}
