@@ -18,13 +18,13 @@ composer install
 ### Menjalankan local development server
 
 Masih pada direktori WeeSata/Frontend jalankan server dengan perintah berikut
-
+```
 php artisan serve
-
+```
 Jika berhasil maka akan muncul pesan berikut
-
+```
 Laravel development server started: <http://127.0.0.1:8000>
-
+```
 Kemudian buka browser lalu ketikan url http://127.0.0.1:8000
 
 ## Deployment
@@ -48,7 +48,10 @@ Aplikasi ini menggunakan arsitektur three tier, menggunakan API, dan menggunakan
 ### Dokumentasi API Weesata
 
 * Mengambil semua data
+```
 'GET', 'https://weesata.000webhostapp.com/getall'
-
+```
 * Search data
+```
 'POST', 'https://weesata.000webhostapp.com/searchbykondisi', 'required: nama, jenis, kota'
+```
