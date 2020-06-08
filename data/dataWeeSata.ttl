@@ -1,13 +1,23 @@
 @prefix id:    <http://weesata.com/ns/data#> .
 @prefix ws:    <http://weesata.com/ns/weesatalist#> .
 
+id:kategori01
+   ws:kategori "Wisata Alam" .
+id:kategori02
+   ws:kategori "Wisata Sejarah" .
+id:kategori03
+   ws:kategori "Wisata Kuliner" .
+id:kategori04
+   ws:kategori "Wisata Indoor" .
+
+
 id:i021  ws:deskripsi  "Kawah putih Ciwidey merupakan sebuah danau yang terbentuk akibat adanya letusan dari gunung berapi yang masih aktif pada masa itu yaitu Gunung Patuha. Di sekitar kawah ini memiliki warna putih yang timbul akibat adanya percampuran dari unsur belerang." ;
         ws:gambar     "https://cdns.klimg.com/merdeka.com/i/w/news/2019/10/08/1115955/540x270/kebakaran-lahan-di-kawah-putih-ciwidey-diprediksi-terus-meluas.jpg" ;
         ws:harga      "Rp 50.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "07.00 - 17.00 WIB" ;
-        ws:jenis      "Wisata Alam" ;
-        ws:kota       "Kabupaten Bandung" ;
+        ws:jenis      id:kategori01 ;
+        ws:kota       "Kabupaten Bandung Barat";
         ws:lokasi     "Desa Alam Endah, Kecamatan Rancabali, Kabupaten Bandung Jawa Barat " ;
         ws:nama       "Kawah Putih" .
 
@@ -16,8 +26,8 @@ id:i022  ws:deskripsi  "Tangkuban Parahu merupakan salah satu gunung terbesar di
         ws:harga      "Rp 15.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "08.00 - 17.00 WIB" ;
-        ws:jenis      "Wisata Alam" ;
-        ws:kota       "Kabupaten Bandung Barat" ;
+        ws:jenis      id:kategori01 ;
+        ws:kota      "Kabupaten Bandung Barat";
         ws:lokasi     "Cikahuripan, Lembang, Kabupaten Bandung Barat, Jawa Barat" ;
         ws:nama       "Gunung Tangkuban Perahu" .
 
@@ -26,8 +36,8 @@ id:i023  ws:deskripsi  "Orchid Forest Cikole merupakan taman Anggrek terbesar di
         ws:harga      "Rp 25.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "09.00 - 18.00 WIB" ;
-        ws:jenis      "Wisata Alam" ;
-        ws:kota       "Kabupaten Bandung Barat" ;
+        ws:jenis      id:kategori01;
+        ws:kota       "Kabupaten Bandung Barat";
         ws:lokasi     "Genteng, Cikole, Lembang, Kabupaten Bandung Barat, Jawa Barat" ;
         ws:nama       "Orchid Forest Cikole" .
 
@@ -36,7 +46,7 @@ id:i024  ws:deskripsi  "Babakan siliwangi adalah salah satu kawasan hutan kota l
         ws:harga      "Gratis" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "24 jam" ;
-        ws:jenis      "Wisata Alam" ;
+        ws:jenis      id:kategori01 ;
         ws:kota       "Kota Bandung" ;
         ws:lokasi     "Jl. Tamansari No.73, Lb. Siliwangi, Kecamatan Coblong, Kota Bandung, Jawa Barat " ;
         ws:nama       "Forest Walk Babakan Siliwangi" .
@@ -44,10 +54,10 @@ id:i024  ws:deskripsi  "Babakan siliwangi adalah salah satu kawasan hutan kota l
 id:i025  ws:deskripsi  "Green Canyon di Pangandaran adalah destinasi yang bisa dikategorikan sebagai lanskap tropis yang unik, diantara kedua dinding ngarai yang berwarna hijau karena ditumbuhi lumut ini anda bisa langsung melihat fenomena alam yang menarik, adanya stalagtit dan stalagmit yang dapat disaksikan secara langsung diruang terbuka, bukannya di kedalaman lorong-lorong gua bawah tanah." ;
         ws:gambar     "https://2.bp.blogspot.com/-d-FjGrWh3_8/Vdz-npBsGmI/AAAAAAAAAXI/bcLxBpInZ08/s780/greencanyon.jpg" ;
         ws:harga      "Rp 200.000 - Rp 350.000" ;
-        ws:hari       "Setiap hari" ;
+        ws:hari       id:kategori01 ;
         ws:jam        "07.00 - 16.00 WIB" ;
-        ws:jenis      "Wisata Alam" ;
-        ws:kota       "Kota Pandandaran" ;
+        ws:jenis      id:kategori01 ;
+        ws:kota       "Kota Pangandaran";
         ws:lokasi     "Jl. Raya Cijulang - Green Canyon, RT.02/RW.10, Cijulang, Pangandaran, Jawa Barat " ;
         ws:nama       "Green Canyon Rafting" .
 
@@ -56,7 +66,7 @@ id:i026  ws:deskripsi  "Trans Studio Bandung merupakan Indoor Theme Park terbesa
         ws:harga      "Rp 280.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "10.00 - 18.00 WIB" ;
-        ws:jenis      "Wisata Indoor" ;
+        ws:jenis      id:kategori04 ;
         ws:kota       "Kota Bandung" ;
         ws:lokasi     "Jalan Jendral Gatot Subroto No.289 A, Cibangkong, Batununggal, Kota Bandung, Jawa Barat " ;
         ws:nama       "Trans Studio Bandung" .
@@ -66,8 +76,8 @@ id:i027  ws:deskripsi  "Disebut sebagai Gedung Sate karena gedung ini mempunyai 
         ws:harga      "Rp 5.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "09.30 - 16.00 WIB" ;
-        ws:jenis      "Wisata Sejarah" ;
-        ws:kota       "Kota Bandung" ;
+        ws:jenis      id:kategori02 ;
+        ws:kota       "Kota Bandung";
         ws:lokasi     " Jl. Diponegoro No.22, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat " ;
         ws:nama       "Gedung Sate" .
 
@@ -76,7 +86,7 @@ id:i028  ws:deskripsi  "Konsep Tempat Wisata Di Lembang ini adalah ‘Desa dan K
         ws:harga      "Rp 20.000 - Rp 30.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "08.00 - 20.00 WIB" ;
-        ws:jenis      "Wisata Alam" ;
+        ws:jenis      id:kategori01 ;
         ws:kota       "Kabupaten Bandung Barat" ;
         ws:lokasi     "Jl. Grand Hotel No.33E, Lembang, Kabupaten Bandung Barat, Jawa Barat" ;
         ws:nama       "Floating Market Lembang" .
@@ -86,7 +96,7 @@ id:i029  ws:deskripsi  "Dago Dream Park mulai beroperasi sekitar Juli 2016, dan 
         ws:harga      "Rp 25.000 - Rp 30.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "09.00 - 17.00 WIB" ;
-        ws:jenis      "Wisata Alam" ;
+        ws:jenis      id:kategori01;
         ws:kota       "Kabupaten Bandung Barat" ;
         ws:lokasi     " Jl. Dago Giri Km. 2.2 Mekarwangi, Pagerwangi, Lembang, Kabupaten Bandung Barat, Jawa Barat" ;
         ws:nama       "Dago Dream Park" .
@@ -96,9 +106,9 @@ id:i030  ws:deskripsi  "Museum Geologi didirikan pada tanggal 16 Mei 1929. Museu
         ws:harga      "Rp 3.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "08.00 - 16.00 WIB" ;
-        ws:jenis      "Wisata Sejarah" ;
-        ws:kota       "Kota Bandung" ;
-        ws:lokasi     "Jl. Diponegoro No.57, Cihaur Geulis, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat " ;
+        ws:jenis      id:kategori02;
+        ws:kota       "Kota Bandung";
+        ws:lokasi    "Jl. Diponegoro No.57, Cihaur Geulis, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat " ;
         ws:nama       "Museum Geologi Bandung" .
 
 id:i031  ws:deskripsi  "Tebing yang berada di dalam kawasan Taman Hutan Raya Ir. H. Djuanda. Tebing ini terletak di Kampung Ciharegem Puncak, Desa Ciburial, Bandung, Jawa Barat, Indonesia. Dari Tebing Keraton dapat menikmati pemandangan spektakuler. Bukan lampu kota, melainkan hutan." ;
@@ -106,8 +116,8 @@ id:i031  ws:deskripsi  "Tebing yang berada di dalam kawasan Taman Hutan Raya Ir.
         ws:harga      "Rp 11.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "09.00 - 17.00 WIB" ;
-        ws:jenis      "Wisata Alam" ;
-        ws:kota       "Kabupaten Bandung Barat" ;
+        ws:jenis      id:kategori01;
+        ws:kota       "Kabupaten Bandung Barat";
         ws:lokasi     "Ciburial, Kec. Cimenyan, Kabupaten Bandung Barat, Jawa Barat  " ;
         ws:nama       "Tebing Keraton" .
 
@@ -116,7 +126,7 @@ id:i032  ws:deskripsi  "Dago Bakery Punclut adalah sebuah restoran yang memiliki
         ws:harga      "Gratis" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "09.00 - 22.00 WIB" ;
-        ws:jenis      "Wisata Kuliner" ;
+        ws:jenis      id:kategori03;
         ws:kota       "Kabupaten Bandung Barat" ;
         ws:lokasi     "Jl. Pagermaneuh No.57, Pagerwangi, Lembang, Kabupaten Bandung Barat, Jawa Barat" ;
         ws:nama       "Dago Bakery Punclut Cafe" .
@@ -126,8 +136,8 @@ id:i033  ws:deskripsi  "Taman Hutan Raya adalah salah satu hutan raya yang menja
         ws:harga      "Rp 15.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "07.30 - 16.30 WIB" ;
-        ws:jenis      "Wisata Alam" ;
-        ws:kota       "Kota Bandung" ;
+        ws:jenis      id:kategori01 ;
+        ws:kota       "Kota Bandung";
         ws:lokasi     "Jl. Pakar Kulon No.13, Ciburial, Cimenyan, Bandung, Jawa Barat, Indonesia" ;
         ws:nama       "Taman Hutan Raya Ir. Juanda" .
 
@@ -136,7 +146,7 @@ id:i034  ws:deskripsi  "Dengan desain atmosfer eropa, banyak spot unik yang past
         ws:harga      "Rp 25.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "08.00 - 20.00 WIB" ;
-        ws:jenis      "Wisata Alam" ;
+        ws:jenis      id:kategori01;
         ws:kota       "Kabupaten Bandung Barat" ;
         ws:lokasi     "Jl. Raya Lembang No. 108, Gudangkahuripan, Lembang, Kabupaten Bandung Barat, Jawa Barat" ;
         ws:nama       "Farm House Lembang" .
@@ -146,7 +156,7 @@ id:i035  ws:deskripsi  "Gunung Papandayan adalah gunung api strato yang terletak
         ws:harga      "Gratis" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "24 jam" ;
-        ws:jenis      "Wisata Alam" ;
+        ws:jenis      id:kategori01;
         ws:kota       "Kabupaten Garut" ;
         ws:lokasi     "Karamat Wangi, Cisurupan, Kabupaten Garut, Jawa Barat" ;
         ws:nama       "Gunung Papandayan" .
@@ -156,8 +166,8 @@ id:i036  ws:deskripsi  "Gunung Pancar adalah sebuah gunung yang terletak di Keca
         ws:harga      "Rp 5.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "24 jam" ;
-        ws:jenis      "Wisata Alam" ;
-        ws:kota       "Kota Bogor" ;
+        ws:jenis      id:kategori01;
+        ws:kota       "Kota Bogor";
         ws:lokasi     "Desa Karang Tengah, Babakan Madang, Bogor, Jawa Barat" ;
         ws:nama       "Gunung Pancar" .
 
@@ -166,8 +176,8 @@ id:i037  ws:deskripsi  "Air Terjun Cikaso, adalah merupakan salah satu air terju
         ws:harga      "Rp 27.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "24 Jam" ;
-        ws:jenis      "Wisata Alam" ;
-        ws:kota       "Kabupaten Sukabumi" ;
+        ws:jenis      id:kategori01;
+        ws:kota       "Kabupaten Sukabumi";
         ws:lokasi     "Desa Ciniti, Cibitung, Kabupaten Sukabumi, Jawa Barat " ;
         ws:nama       "Curug Cikaso" .
 
@@ -176,8 +186,8 @@ id:i038  ws:deskripsi  "Pantai Pelabuhan Ratu merupakan pantai yang memiliki kei
         ws:harga      "Rp 3.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "24 jam" ;
-        ws:jenis      "Wisata Alam" ;
-        ws:kota       "Kabupaten Sukabumi" ;
+        ws:jenis      id:kategori01 ;
+        ws:kota       "Kabupaten Sukabumi";
         ws:lokasi     "Kecamatan Pelabuhan Ratu, Kabupaten Sukabumi, Jawa Barat" ;
         ws:nama       "Pantai Pelabuhan Ratu" .
 
@@ -186,7 +196,7 @@ id:i039  ws:deskripsi  "Taman Rekreasi dan Buah Mekarsari atau Taman Wisata Meka
         ws:harga      "Rp 50.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "08.00 - 17.00 WIB" ;
-        ws:jenis      "Wisata Alam" ;
+        ws:jenis      id:kategori01 ;
         ws:kota       "Kota Bogor" ;
         ws:lokasi     " Jalan Raya Cileungsi -Jonggol KM.3, Mekarsari, Cileungsi, Mekarsari, Kec. Cileungsi, Bogor, Jawa Barat " ;
         ws:nama       "Taman Wisata Mekarsari" .
@@ -196,7 +206,7 @@ id:i040  ws:deskripsi  "Taman Bunga Nusantara adalah sebuah taman bunga seluas 3
         ws:harga      "Rp 40.000" ;
         ws:hari       "Setiap hari" ;
         ws:jam        "08.00 - 17.00 WIB" ;
-        ws:jenis      "Wisata Alam" ;
+        ws:jenis      id:kategori01;
         ws:kota       "Kabupaten Cianjur" ;
         ws:lokasi     "Jl. Mariwati No.KM, Kawungluwuk, Kec. Sukaresmi, Kabupaten Cianjur, Jawa Barat 43254" ;
         ws:nama       "Taman Bunga Nusantara" .
