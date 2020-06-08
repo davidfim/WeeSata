@@ -21,3 +21,8 @@ Route::get('/searchbynama/{nama}','WeesataController@searchbynama');
 Route::get('/searchbyjenis/{jenis}','WeesataController@searchbyjenis');
 Route::get('/searchbykota/{kota}','WeesataController@searchbykota');
 
+Route::POST('/searchbykondisi','WeesataController@searchbykondisi');
+Route::get('/aaa', function () {
+    $asdf = csrf_token();
+    return $asdf;
+});

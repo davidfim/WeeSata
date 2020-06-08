@@ -148,4 +148,41 @@ class WeesataController extends Controller
             'response'=> $json->results->bindings
         ],200);
     }
+    public function searchbykondisi(Request $request){
+        $query="PREFIX ws: <http://weesata.com/ns/weesatalist#>\n \n
+                SELECT ?nama ?lokasi ?kota ?gambar ?jenis ?deskripsi ?harga ?jam ?hari\n
+                WHERE\n
+                    {\n 
+                        ?w     ws:nama    ?nama ;\n        
+                        ws:lokasi    ?lokasi ;\n        
+                        ws:kota    ?kota ;\n        
+                        ws:gambar    ?gambar ;\n        
+                        ws:jenis    ?jenis ;\n        
+                        ws:deskripsi ?deskripsi ;\n        
+                        ws:harga     ?harga ;\n        
+                        ws:jam       ?jam ;\n        
+                        ws:hari      ?hari .\n\n  
+                        FILTER contains(lcase(str(?kota)), lcase(str(\"".$request['kota']."\")))\n  
+                        FILTER contains(lcase(str(?nama)), lcase(str(\"".$request['nama']."\")))\n  
+                        FILTER contains(lcase(str(?jenis)), lcase(str(\"".$request['jenis']."\")))\n}";
+
+                    $options = [
+                        'headers'=>[
+                            "Accept" => "application/sparql-results+json,*/*;q=0.9",
+                            "Content-Type" => "application/x-www-form-urlencoded; charset=UTF-8"
+                        ],
+                        'form_params' => [
+                            "query" => $query,
+                            //"_token" =>"g7d0oQkYRCIm1FGloFGwf8kXwdnNINu5JowPoV0f"
+                        ]
+                    ];
+                    $response = $this->client->request('POST',"/weesata/query", $options);
+                    $json = json_decode($response->getBody()->getContents());
+                    // dd($json);
+                    // return $query;
+                    return response()->json([
+                        'status' => 'Data pencarian berdasarakan kota : '.$request['kota'].' , nama : '.$request['nama'].' , kategori : '.$request['jenis'].' berhasil diambil',
+                        'response'=> $json->results->bindings
+                    ],200);
+    }
 }
